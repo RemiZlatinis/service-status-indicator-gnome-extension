@@ -1,0 +1,13 @@
+{
+  "uuid": "service-status-indicator@RemiZlatinis",
+  "name": "Service Status Indicator",
+  "description": "It provides a way to display the status of a linux machine in the tray.",
+  "version": 1,
+  "license": "GPL-2.0",
+  "url": "https://github.com/RemiZlatinis/service-status-indicator-gnome-extension",
+  "gnome-shell-extension-mode": "system",
+  "icon-theme": "gnome",
+  "settings-schema": "org.gnome.shell.extensions.service-status-indicator",
+  "spawn": ["curl"],
+  "shell-version": ["40", "41", "42", "43", "44"]
+}

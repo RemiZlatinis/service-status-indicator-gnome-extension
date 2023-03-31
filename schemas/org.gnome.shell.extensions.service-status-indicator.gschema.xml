@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.service-status-indicator" 
+    path="/org/gnome/shell/extensions/service-status-indicator/">
+
+    <key name="refresh-interval" type="i">
+      <default>10</default>
+    </key>
+    <key name="refresh-interval-on-failure" type="i">
+      <default>3</default>
+    </key>
+    <key name="endpoint" type="s">
+      <default>"http://localhost:8000/services"</default>
+    </key>
+    <key name="token" type="s">
+      <default>"replace-with-your-token"</default>
+    </key>
+  
+  </schema>
+</schemalist>
