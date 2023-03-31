@@ -71,6 +71,7 @@ The Service Status Indicator Gnome Extension was created by Apostolos Zlatinis a
 
 Modifited icons from Flaticon are used
 
+&#x2011;
 <img src="icons/ok.png"  width="32" height="32">
 <img src="icons/update.png"  width="32" height="32">
 <img src="icons/warning.png"  width="32" height="32">
