@@ -125,6 +125,11 @@ function spawnAsyncWithPipes(args) {
 
       GLib.spawn_close_pid(pid);
 
+      // Close the file descriptors
+      GLib.close(stdin);
+      GLib.close(stdout_fd);
+      GLib.close(stderr_fd);
+
       resolve({ stdout, stderr });
     });
   });
