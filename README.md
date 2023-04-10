@@ -35,10 +35,10 @@ To install the Service Status Indicator GNOME Extension manually from the Git re
 2. Copy to gnome extenstions:
 
    ```shell
-   cp service-status-indicator-gnome-extension ~/.local/share/gnome-shell/extensions/service-status-indicator@RemiZlatinis
+   cp -r service-status-indicator-gnome-extension ~/.local/share/gnome-shell/extensions/service-status-indicator@RemiZlatinis
    ```
 
-3. Restart GNOME:
+3. Restart GNOME session:
 
    - Press Alt + F2
    - Type "r" and Enter
