@@ -281,9 +281,8 @@ function refresh() {
       setIndicatorIcon("server-error");
       totalStatus = "error";
       log(error);
-    } finally {
-      isRefreshing = false;
     }
+    isRefreshing = false;
   }
 
   _doRefresh();
@@ -353,6 +352,7 @@ function enable() {
 }
 
 function disable() {
+  isRefreshing = false;
   indicator.destroy();
   indicator = null;
 }
